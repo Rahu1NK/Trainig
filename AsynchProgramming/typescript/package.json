@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "typescript Asynch ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "allPromise": "ts-node src/promiseAll.ts",
+    "scalpale": "ts-node src/scalpale.ts"
+  },
+  "author": "Rahul NK",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}

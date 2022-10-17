@@ -1,0 +1,18 @@
+{
+  "name": "functinoalprogramming",
+  "version": "1.0.0",
+  "description": "Functinoal Programmig asynch ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scalPale": "ts-node src/scalPale.ts",
+    "allPromise": "ts-node src/promiseAll.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fp-ts": "^2.13.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}

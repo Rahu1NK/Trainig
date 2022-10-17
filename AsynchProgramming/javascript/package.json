@@ -4,8 +4,13 @@
   "description": "javascript asunch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scalPale": "nodemon src/scalpale.js",
+    "allPromise": "nodemon src/promiseAll.js"
   },
   "author": "Rahul NK",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
